@@ -5,16 +5,11 @@ const RoomForm = ({ setCurrentRoom }) => {
 
     let inputRef = useRef(null)
 
-localStorage.getItem("auth")
 
 localStorage.setItem("auth",true)
 localStorage.setItem("chatsession",true)
-// if(inputRef.current !== null){
-// console.log("gdokpbgdo");
-// }
 
 
-console.log('setCurrentRoom',inputRef)
 const HandleSession =()=>{
     console.log('chartsaaa: ', charts);
         localStorage.setItem("manage",'ss')
